@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>America 250 Stamps — Map of 46 American Revolution Parks by Region</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { height: 100%; margin: 0; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  #bar { background: #7a1f1f; color: #fff; padding: 10px 14px; }
+  #bar h1 { font-size: 18px; margin: 0 0 2px; }
+  #bar p { margin: 0; font-size: 13px; opacity: .9; }
+  #map { height: calc(100% - 62px); }
+  .pin { border-radius: 50%; color: #fff; font-weight: 700; font-size: 11px; text-align: center; line-height: 22px; width: 22px; height: 22px; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); }
+  .legend { background: #fff; padding: 8px 10px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font-size: 13px; line-height: 1.7; }
+  .legend .chip { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+  .leaflet-popup-content { font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="bar">
+  <h1>America 250 Stamps — Park Map</h1>
+  <p>All 46 American Revolution parks, color-coded by region. Tap a pin for the park and a Google Maps link.</p>
+</div>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var COLORS = { northern: "#1d6fb8", central: "#e07b00", southern: "#1e8e3e" };
+var RLABEL = { northern: "Northern Region", central: "Central Region", southern: "Southern Region" };
+var STOPS = [
+ {
+  "n": "1 · Adams National Historical Park",
+  "r": "northern",
+  "loc": "Quincy, Massachusetts",
+  "lat": 42.25663,
+  "lng": -71.01043,
+  "q": "Adams+National+Historical+Park+Quincy+MA"
+ },
+ {
+  "n": "2 · Boston National Historical Park",
+  "r": "northern",
+  "loc": "Boston, Massachusetts",
+  "lat": 42.37564,
+  "lng": -71.0614,
+  "q": "Boston+National+Historical+Park+Boston+MA"
+ },
+ {
+  "n": "3 · Boston African American National Historic Site",
+  "r": "northern",
+  "loc": "Boston, Massachusetts",
+  "lat": 42.35785,
+  "lng": -71.0624,
+  "q": "Boston+African+American+National+Historic+Site+Boston+MA"
+ },
+ {
+  "n": "4 · Longfellow House – Washington's Headquarters National Historic Site",
+  "r": "northern",
+  "loc": "Cambridge, Massachusetts",
+  "lat": 42.37614,
+  "lng": -71.12617,
+  "q": "Longfellow+House+Washington's+Headquarters+National+Historic+Site+Cambridge+MA"
+ },
+ {
+  "n": "5 · Minute Man National Historical Park",
+  "r": "northern",
+  "loc": "Concord, Massachusetts",
+  "lat": 42.4709,
+  "lng": -71.35269,
+  "q": "Minute+Man+National+Historical+Park+Concord+MA"
+ },
+ {
+  "n": "6 · Salem Maritime National Historic Site",
+  "r": "northern",
+  "loc": "Salem, Massachusetts",
+  "lat": 42.52161,
+  "lng": -70.88719,
+  "q": "Salem+Maritime+National+Historic+Site+Salem+MA"
+ },
+ {
+  "n": "7 · Springfield Armory National Historic Site",
+  "r": "northern",
+  "loc": "Springfield, Massachusetts",
+  "lat": 42.1081,
+  "lng": -72.58507,
+  "q": "Springfield+Armory+National+Historic+Site+Springfield+MA"
+ },
+ {
+  "n": "8 · African Burial Ground National Monument",
+  "r": "northern",
+  "loc": "New York City, New York",
+  "lat": 40.71374,
+  "lng": -74.00461,
+  "q": "African+Burial+Ground+National+Monument+New+York+City+NY"
+ },
+ {
+  "n": "9 · Federal Hall National Memorial",
+  "r": "northern",
+  "loc": "New York City, New York",
+  "lat": 40.70715,
+  "lng": -74.01045,
+  "q": "Federal+Hall+National+Memorial+New+York+City+NY"
+ },
+ {
+  "n": "10 · Fire Island National Seashore",
+  "r": "northern",
+  "loc": "Mastic Beach, New York",
+  "lat": 40.73609,
+  "lng": -72.86701,
+  "q": "Fire+Island+National+Seashore+Mastic+Beach+NY"
+ },
+ {
+  "n": "11 · Fort Stanwix National Monument",
+  "r": "northern",
+  "loc": "Rome, New York",
+  "lat": 43.2118,
+  "lng": -75.45477,
+  "q": "Fort+Stanwix+National+Monument+Rome+NY"
+ },
+ {
+  "n": "12 · Governors Island National Monument",
+  "r": "northern",
+  "loc": "New York City, New York",
+  "lat": 40.69126,
+  "lng": -74.01553,
+  "q": "Governors+Island+National+Monument+New+York+City+NY"
+ },
+ {
+  "n": "13 · Hamilton Grange National Memorial",
+  "r": "northern",
+  "loc": "New York City, New York",
+  "lat": 40.82141,
+  "lng": -73.94726,
+  "q": "Hamilton+Grange+National+Memorial+New+York+City+NY"
+ },
+ {
+  "n": "14 · Statue of Liberty National Monument",
+  "r": "northern",
+  "loc": "New York City, New York",
+  "lat": 40.68925,
+  "lng": -74.04445,
+  "q": "Statue+of+Liberty+National+Monument+New+York+City+NY"
+ },
+ {
+  "n": "15 · Saint Paul's Church National Historic Site",
+  "r": "northern",
+  "loc": "Mount Vernon, New York",
+  "lat": 40.89342,
+  "lng": -73.82609,
+  "q": "Saint+Paul's+Church+National+Historic+Site+Mount+Vernon+NY"
+ },
+ {
+  "n": "16 · Saratoga National Historical Park",
+  "r": "northern",
+  "loc": "Stillwater, New York",
+  "lat": 42.93699,
+  "lng": -73.65886,
+  "q": "Saratoga+National+Historical+Park+Stillwater+NY"
+ },
+ {
+  "n": "1 · First State National Historical Park",
+  "r": "central",
+  "loc": "New Castle, Delaware",
+  "lat": 39.65986,
+  "lng": -75.56342,
+  "q": "First+State+National+Historical+Park+New+Castle+DE"
+ },
+ {
+  "n": "2 · Constitution Gardens",
+  "r": "central",
+  "loc": "Washington, District of Columbia",
+  "lat": 38.89258,
+  "lng": -77.04271,
+  "q": "Constitution+Gardens+Washington+DC"
+ },
+ {
+  "n": "3 · Thomas Jefferson Memorial",
+  "r": "central",
+  "loc": "Washington, District of Columbia",
+  "lat": 38.8814,
+  "lng": -77.03656,
+  "q": "Thomas+Jefferson+Memorial+Washington+DC"
+ },
+ {
+  "n": "4 · Washington Monument",
+  "r": "central",
+  "loc": "Washington, District of Columbia",
+  "lat": 38.88945,
+  "lng": -77.03525,
+  "q": "Washington+Monument+Washington+DC"
+ },
+ {
+  "n": "5 · George Rogers Clark National Historical Park",
+  "r": "central",
+  "loc": "Vincennes, Indiana",
+  "lat": 38.67893,
+  "lng": -87.5367,
+  "q": "George+Rogers+Clark+National+Historical+Park+Vincennes+IN"
+ },
+ {
+  "n": "6 · Cumberland Gap National Historical Park",
+  "r": "central",
+  "loc": "Middlesboro (KY, TN, VA), Kentucky",
+  "lat": 36.60476,
+  "lng": -83.68829,
+  "q": "Cumberland+Gap+National+Historical+Park+Middlesboro+KY"
+ },
+ {
+  "n": "7 · Thomas Stone National Historic Site",
+  "r": "central",
+  "loc": "Port Tobacco, Maryland",
+  "lat": 38.53068,
+  "lng": -77.0385,
+  "q": "Thomas+Stone+National+Historic+Site+Port+Tobacco+MD"
+ },
+ {
+  "n": "8 · Gateway National Recreation Area — Sandy Hook Unit",
+  "r": "central",
+  "loc": "Highlands, New Jersey",
+  "lat": 40.39983,
+  "lng": -73.977,
+  "q": "Gateway+National+Recreation+Area+Sandy+Hook+Unit+Highlands+NJ"
+ },
+ {
+  "n": "9 · Morristown National Historical Park",
+  "r": "central",
+  "loc": "Morristown, New Jersey",
+  "lat": 40.77573,
+  "lng": -74.52279,
+  "q": "Morristown+National+Historical+Park+Morristown+NJ"
+ },
+ {
+  "n": "10 · Paterson Great Falls National Historical Park",
+  "r": "central",
+  "loc": "Paterson, New Jersey",
+  "lat": 40.91462,
+  "lng": -74.17828,
+  "q": "Paterson+Great+Falls+National+Historical+Park+Paterson+NJ"
+ },
+ {
+  "n": "11 · Fort Necessity National Battlefield",
+  "r": "central",
+  "loc": "Farmington, Pennsylvania",
+  "lat": 39.81691,
+  "lng": -79.58188,
+  "q": "Fort+Necessity+National+Battlefield+Farmington+PA"
+ },
+ {
+  "n": "12 · Hopewell Furnace National Historic Site",
+  "r": "central",
+  "loc": "Elverson, Pennsylvania",
+  "lat": 40.20919,
+  "lng": -75.77226,
+  "q": "Hopewell+Furnace+National+Historic+Site+Elverson+PA"
+ },
+ {
+  "n": "13 · Independence National Historical Park",
+  "r": "central",
+  "loc": "Philadelphia, Pennsylvania",
+  "lat": 39.94732,
+  "lng": -75.1469,
+  "q": "Independence+National+Historical+Park+Philadelphia+PA"
+ },
+ {
+  "n": "14 · Thaddeus Kosciuszko National Memorial",
+  "r": "central",
+  "loc": "Philadelphia, Pennsylvania",
+  "lat": 39.94342,
+  "lng": -75.14729,
+  "q": "Thaddeus+Kosciuszko+National+Memorial+Philadelphia+PA"
+ },
+ {
+  "n": "15 · Valley Forge National Historical Park",
+  "r": "central",
+  "loc": "Valley Forge, Pennsylvania",
+  "lat": 40.0994,
+  "lng": -75.47144,
+  "q": "Valley+Forge+National+Historical+Park+Valley+Forge+PA"
+ },
+ {
+  "n": "16 · Washington-Rochambeau Revolutionary Route National Historic Trail",
+  "r": "central",
+  "loc": "Yorktown (trail: PA, MA, RI, CT, NY, NJ, DE, MD, VA, DC), Pennsylvania",
+  "lat": 37.23687,
+  "lng": -76.51112,
+  "q": "Washington-Rochambeau+Revolutionary+Route+National+Historic+Trail+Yorktown+VA"
+ },
+ {
+  "n": "17 · Colonial National Historical Park — Historic Jamestown & Yorktown Battlefield",
+  "r": "central",
+  "loc": "Yorktown, Virginia",
+  "lat": 37.23081,
+  "lng": -76.50241,
+  "q": "Colonial+National+Historical+Park+Yorktown+VA"
+ },
+ {
+  "n": "18 · George Washington Birthplace National Monument",
+  "r": "central",
+  "loc": "Colonial Beach, Virginia",
+  "lat": 38.18495,
+  "lng": -76.91734,
+  "q": "George+Washington+Birthplace+National+Monument+Colonial+Beach+VA"
+ },
+ {
+  "n": "19 · Prince William Forest Park",
+  "r": "central",
+  "loc": "Triangle, Virginia",
+  "lat": 38.55331,
+  "lng": -77.34899,
+  "q": "Prince+William+Forest+Park+Triangle+VA"
+ },
+ {
+  "n": "1 · Arkansas Post National Memorial",
+  "r": "southern",
+  "loc": "Gillett, Arkansas",
+  "lat": 34.01752,
+  "lng": -91.34653,
+  "q": "Arkansas+Post+National+Memorial+Gillett+AR"
+ },
+ {
+  "n": "2 · Castillo de San Marcos National Monument",
+  "r": "southern",
+  "loc": "St. Augustine, Florida",
+  "lat": 29.89799,
+  "lng": -81.31152,
+  "q": "Castillo+de+San+Marcos+National+Monument+St.+Augustine+FL"
+ },
+ {
+  "n": "3 · Timucuan Ecological and Historic Preserve",
+  "r": "southern",
+  "loc": "Jacksonville, Florida",
+  "lat": 30.37093,
+  "lng": -81.48511,
+  "q": "Timucuan+Ecological+and+Historic+Preserve+Jacksonville+FL"
+ },
+ {
+  "n": "4 · Guilford Courthouse National Military Park",
+  "r": "southern",
+  "loc": "Greensboro, North Carolina",
+  "lat": 36.13136,
+  "lng": -79.84633,
+  "q": "Guilford+Courthouse+National+Military+Park+Greensboro+NC"
+ },
+ {
+  "n": "5 · Moores Creek National Battlefield",
+  "r": "southern",
+  "loc": "Currie, North Carolina",
+  "lat": 34.45796,
+  "lng": -78.10965,
+  "q": "Moores+Creek+National+Battlefield+Currie+NC"
+ },
+ {
+  "n": "6 · Charles Pinckney National Historic Site",
+  "r": "southern",
+  "loc": "Charleston, South Carolina",
+  "lat": 32.84558,
+  "lng": -79.82396,
+  "q": "Charles+Pinckney+National+Historic+Site+Charleston+SC"
+ },
+ {
+  "n": "7 · Cowpens National Battlefield",
+  "r": "southern",
+  "loc": "Chesnee, South Carolina",
+  "lat": 35.14271,
+  "lng": -81.81953,
+  "q": "Cowpens+National+Battlefield+Chesnee+SC"
+ },
+ {
+  "n": "8 · Fort Sumter and Fort Moultrie National Historical Park",
+  "r": "southern",
+  "loc": "Sullivan's Island, South Carolina",
+  "lat": 32.76038,
+  "lng": -79.85764,
+  "q": "Fort+Sumter+and+Fort+Moultrie+National+Historical+Park+Sullivan's+Island+SC"
+ },
+ {
+  "n": "9 · Kings Mountain National Military Park",
+  "r": "southern",
+  "loc": "Kings Mountain, South Carolina",
+  "lat": 35.1409,
+  "lng": -81.38726,
+  "q": "Kings+Mountain+National+Military+Park+Kings+Mountain+NC"
+ },
+ {
+  "n": "10 · Ninety Six National Historic Site",
+  "r": "southern",
+  "loc": "Ninety Six, South Carolina",
+  "lat": 34.14663,
+  "lng": -82.02334,
+  "q": "Ninety+Six+National+Historic+Site+Ninety+Six+SC"
+ },
+ {
+  "n": "11 · Overmountain Victory National Historic Trail",
+  "r": "southern",
+  "loc": "Gaffney (trail: SC, NC, TN, VA), South Carolina",
+  "lat": 35.07368,
+  "lng": -81.64961,
+  "q": "Overmountain+Victory+National+Historic+Trail+Gaffney+SC"
+ }
+];
+var map = L.map("map");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+var bounds = [];
+STOPS.forEach(function (s) {
+  var label = s.n.split(" · ")[0];
+  var icon = L.divIcon({ className: "", html: '<div class="pin" style="background:' + COLORS[s.r] + '">' + label + "</div>", iconSize: [22, 22], iconAnchor: [11, 11] });
+  var popup = "<b>" + s.n + "</b><br>" + RLABEL[s.r] + " · " + s.loc + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + s.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
+  L.marker([s.lat, s.lng], { icon: icon }).addTo(map).bindPopup(popup);
+  bounds.push([s.lat, s.lng]);
+});
+map.fitBounds(bounds, { padding: [25, 25] });
+var legend = L.control({ position: "bottomright" });
+legend.onAdd = function () {
+  var div = L.DomUtil.create("div", "legend");
+  div.innerHTML = '<span class="chip" style="background:' + COLORS.northern + '"></span>Northern · 16 parks<br>' +
+    '<span class="chip" style="background:' + COLORS.central + '"></span>Central · 19 parks<br>' +
+    '<span class="chip" style="background:' + COLORS.southern + '"></span>Southern · 11 parks';
+  return div;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>
