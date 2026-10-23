@@ -19,7 +19,7 @@ All 46 parks from the list, divided by **region and state** — with a map and a
 ## How to use this list {#how-to-use}
 
 - Each park is a National Park Service site in the Passport to Your National Parks® American Revolution / America 250 set — get its passport cancellation stamp at the park's visitor center or bookstore desk.
-- 📍 Every park name links to its Google Maps location.
+- 📍 Every park name links to its Google Maps location, and **NPS site** next to it links to the park's official nps.gov page (all 46 verified live Oct 23, 2026).
 - ☐ Tick a park off as you collect its stamp. Counts: **Northern 16 · Central 19 · Southern 11 · Total 46**.
 - The 3 DC entries (Constitution Gardens, Thomas Jefferson Memorial, Washington Monument) are also on the Nov 19–22, 2026 DC Stamp Hunt route.
 
@@ -35,25 +35,25 @@ All 46 parks from the list, divided by **region and state** — with a map and a
 
 ### Massachusetts
 
-- [ ] **1. [Adams National Historical Park](https://www.google.com/maps/search/?api=1&query=-71.01043)** — Quincy — Adams+National+Historical+Park+Quincy+MA
-- [ ] **2. [Boston National Historical Park](https://www.google.com/maps/search/?api=1&query=-71.0614)** — Boston — Boston+National+Historical+Park+Boston+MA
-- [ ] **3. [Boston African American National Historic Site](https://www.google.com/maps/search/?api=1&query=-71.0624)** — Boston — Boston+African+American+National+Historic+Site+Boston+MA
-- [ ] **4. [Longfellow House – Washington's Headquarters National Historic Site](https://www.google.com/maps/search/?api=1&query=-71.12617)** — Cambridge — Longfellow+House+Washington's+Headquarters+National+Historic+Site+Cambridge+MA
-- [ ] **5. [Minute Man National Historical Park](https://www.google.com/maps/search/?api=1&query=-71.35269)** — Concord — Minute+Man+National+Historical+Park+Concord+MA
-- [ ] **6. [Salem Maritime National Historic Site](https://www.google.com/maps/search/?api=1&query=-70.88719)** — Salem — Salem+Maritime+National+Historic+Site+Salem+MA
-- [ ] **7. [Springfield Armory National Historic Site](https://www.google.com/maps/search/?api=1&query=-72.58507)** — Springfield — Springfield+Armory+National+Historic+Site+Springfield+MA
+- [ ] **1. [Adams National Historical Park](https://www.google.com/maps/search/?api=1&query=Adams+National+Historical+Park+Quincy+MA)** — Quincy · [NPS site](https://www.nps.gov/adam/) 
+- [ ] **2. [Boston National Historical Park](https://www.google.com/maps/search/?api=1&query=Boston+National+Historical+Park+Boston+MA)** — Boston · [NPS site](https://www.nps.gov/bost/)  — Pin at the Charlestown Navy Yard / Bunker Hill end of this dispersed park.
+- [ ] **3. [Boston African American National Historic Site](https://www.google.com/maps/search/?api=1&query=Boston+African+American+National+Historic+Site+Boston+MA)** — Boston · [NPS site](https://www.nps.gov/boaf/) 
+- [ ] **4. [Longfellow House – Washington's Headquarters National Historic Site](https://www.google.com/maps/search/?api=1&query=Longfellow+House+Washington's+Headquarters+National+Historic+Site+Cambridge+MA)** — Cambridge · [NPS site](https://www.nps.gov/long/) 
+- [ ] **5. [Minute Man National Historical Park](https://www.google.com/maps/search/?api=1&query=Minute+Man+National+Historical+Park+Concord+MA)** — Concord · [NPS site](https://www.nps.gov/mima/) 
+- [ ] **6. [Salem Maritime National Historic Site](https://www.google.com/maps/search/?api=1&query=Salem+Maritime+National+Historic+Site+Salem+MA)** — Salem · [NPS site](https://www.nps.gov/sama/) 
+- [ ] **7. [Springfield Armory National Historic Site](https://www.google.com/maps/search/?api=1&query=Springfield+Armory+National+Historic+Site+Springfield+MA)** — Springfield · [NPS site](https://www.nps.gov/spar/) 
 
 ### New York
 
-- [ ] **8. [African Burial Ground National Monument](https://www.google.com/maps/search/?api=1&query=-74.00461)** — New York City — African+Burial+Ground+National+Monument+New+York+City+NY
-- [ ] **9. [Federal Hall National Memorial](https://www.google.com/maps/search/?api=1&query=-74.01045)** — New York City — Federal+Hall+National+Memorial+New+York+City+NY
-- [ ] **10. [Fire Island National Seashore](https://www.google.com/maps/search/?api=1&query=-72.86701)** — Mastic Beach — Fire+Island+National+Seashore+Mastic+Beach+NY
-- [ ] **11. [Fort Stanwix National Monument](https://www.google.com/maps/search/?api=1&query=-75.45477)** — Rome — Fort+Stanwix+National+Monument+Rome+NY
-- [ ] **12. [Governors Island National Monument](https://www.google.com/maps/search/?api=1&query=-74.01553)** — New York City — Governors+Island+National+Monument+New+York+City+NY
-- [ ] **13. [Hamilton Grange National Memorial](https://www.google.com/maps/search/?api=1&query=-73.94726)** — New York City — Hamilton+Grange+National+Memorial+New+York+City+NY
-- [ ] **14. [Statue of Liberty National Monument](https://www.google.com/maps/search/?api=1&query=-74.04445)** — New York City — Statue+of+Liberty+National+Monument+New+York+City+NY
-- [ ] **15. [Saint Paul's Church National Historic Site](https://www.google.com/maps/search/?api=1&query=-73.82609)** — Mount Vernon — Saint+Paul's+Church+National+Historic+Site+Mount+Vernon+NY
-- [ ] **16. [Saratoga National Historical Park](https://www.google.com/maps/search/?api=1&query=-73.65886)** — Stillwater — Saratoga+National+Historical+Park+Stillwater+NY
+- [ ] **8. [African Burial Ground National Monument](https://www.google.com/maps/search/?api=1&query=African+Burial+Ground+National+Monument+New+York+City+NY)** — New York City · [NPS site](https://www.nps.gov/afbg/) 
+- [ ] **9. [Federal Hall National Memorial](https://www.google.com/maps/search/?api=1&query=Federal+Hall+National+Memorial+New+York+City+NY)** — New York City · [NPS site](https://www.nps.gov/feha/) 
+- [ ] **10. [Fire Island National Seashore](https://www.google.com/maps/search/?api=1&query=Fire+Island+National+Seashore+Mastic+Beach+NY)** — Mastic Beach · [NPS site](https://www.nps.gov/fiis/)  — Pin at the Wilderness Visitor Center / Smith Point end.
+- [ ] **11. [Fort Stanwix National Monument](https://www.google.com/maps/search/?api=1&query=Fort+Stanwix+National+Monument+Rome+NY)** — Rome · [NPS site](https://www.nps.gov/fost/) 
+- [ ] **12. [Governors Island National Monument](https://www.google.com/maps/search/?api=1&query=Governors+Island+National+Monument+New+York+City+NY)** — New York City · [NPS site](https://www.nps.gov/gois/)  — Pin at Fort Jay, a core part of the monument. Ferry access only.
+- [ ] **13. [Hamilton Grange National Memorial](https://www.google.com/maps/search/?api=1&query=Hamilton+Grange+National+Memorial+New+York+City+NY)** — New York City · [NPS site](https://www.nps.gov/hagr/) 
+- [ ] **14. [Statue of Liberty National Monument](https://www.google.com/maps/search/?api=1&query=Statue+of+Liberty+National+Monument+New+York+City+NY)** — New York City · [NPS site](https://www.nps.gov/stli/) 
+- [ ] **15. [Saint Paul's Church National Historic Site](https://www.google.com/maps/search/?api=1&query=Saint+Paul's+Church+National+Historic+Site+Mount+Vernon+NY)** — Mount Vernon · [NPS site](https://www.nps.gov/sapa/) 
+- [ ] **16. [Saratoga National Historical Park](https://www.google.com/maps/search/?api=1&query=Saratoga+National+Historical+Park+Stillwater+NY)** — Stillwater · [NPS site](https://www.nps.gov/sara/) 
 
 ## Central Region {#central}
 
@@ -61,46 +61,46 @@ All 46 parks from the list, divided by **region and state** — with a map and a
 
 ### Delaware
 
-- [ ] **1. [First State National Historical Park](https://www.google.com/maps/search/?api=1&query=-75.56342)** — New Castle — First+State+National+Historical+Park+New+Castle+DE
+- [ ] **1. [First State National Historical Park](https://www.google.com/maps/search/?api=1&query=First+State+National+Historical+Park+New+Castle+DE)** — New Castle · [NPS site](https://www.nps.gov/frst/) 
 
 ### District of Columbia
 
-- [ ] **2. [Constitution Gardens](https://www.google.com/maps/search/?api=1&query=-77.04271)** — Washington — Constitution+Gardens+Washington+DC
-- [ ] **3. [Thomas Jefferson Memorial](https://www.google.com/maps/search/?api=1&query=-77.03656)** — Washington — Thomas+Jefferson+Memorial+Washington+DC
-- [ ] **4. [Washington Monument](https://www.google.com/maps/search/?api=1&query=-77.03525)** — Washington — Washington+Monument+Washington+DC
+- [ ] **2. [Constitution Gardens](https://www.google.com/maps/search/?api=1&query=Constitution+Gardens+Washington+DC)** — Washington · [NPS site](https://www.nps.gov/nama/)  — On the DC trip: its stamp is at the Lincoln Memorial bookstore desk.
+- [ ] **3. [Thomas Jefferson Memorial](https://www.google.com/maps/search/?api=1&query=Thomas+Jefferson+Memorial+Washington+DC)** — Washington · [NPS site](https://www.nps.gov/thje/) 
+- [ ] **4. [Washington Monument](https://www.google.com/maps/search/?api=1&query=Washington+Monument+Washington+DC)** — Washington · [NPS site](https://www.nps.gov/wamo/)  — Stamp at the Washington Monument Lodge desk — no ticket needed for the stamp.
 
 ### Indiana
 
-- [ ] **5. [George Rogers Clark National Historical Park](https://www.google.com/maps/search/?api=1&query=-87.5367)** — Vincennes — George+Rogers+Clark+National+Historical+Park+Vincennes+IN
+- [ ] **5. [George Rogers Clark National Historical Park](https://www.google.com/maps/search/?api=1&query=George+Rogers+Clark+National+Historical+Park+Vincennes+IN)** — Vincennes · [NPS site](https://www.nps.gov/gero/) 
 
 ### Kentucky
 
-- [ ] **6. [Cumberland Gap National Historical Park](https://www.google.com/maps/search/?api=1&query=-83.68829)** — Middlesboro (KY, TN, VA) — Cumberland+Gap+National+Historical+Park+Middlesboro+KY
+- [ ] **6. [Cumberland Gap National Historical Park](https://www.google.com/maps/search/?api=1&query=Cumberland+Gap+National+Historical+Park+Middlesboro+KY)** — Middlesboro (KY, TN, VA) · [NPS site](https://www.nps.gov/cuga/)  — Park spans KY / TN / VA; pin at the visitor center near Middlesboro, KY.
 
 ### Maryland
 
-- [ ] **7. [Thomas Stone National Historic Site](https://www.google.com/maps/search/?api=1&query=-77.0385)** — Port Tobacco — Thomas+Stone+National+Historic+Site+Port+Tobacco+MD
+- [ ] **7. [Thomas Stone National Historic Site](https://www.google.com/maps/search/?api=1&query=Thomas+Stone+National+Historic+Site+Port+Tobacco+MD)** — Port Tobacco · [NPS site](https://www.nps.gov/thst/) 
 
 ### New Jersey
 
-- [ ] **8. [Gateway National Recreation Area — Sandy Hook Unit](https://www.google.com/maps/search/?api=1&query=-73.977)** — Highlands — Gateway+National+Recreation+Area+Sandy+Hook+Unit+Highlands+NJ
-- [ ] **9. [Morristown National Historical Park](https://www.google.com/maps/search/?api=1&query=-74.52279)** — Morristown — Morristown+National+Historical+Park+Morristown+NJ
-- [ ] **10. [Paterson Great Falls National Historical Park](https://www.google.com/maps/search/?api=1&query=-74.17828)** — Paterson — Paterson+Great+Falls+National+Historical+Park+Paterson+NJ
+- [ ] **8. [Gateway National Recreation Area — Sandy Hook Unit](https://www.google.com/maps/search/?api=1&query=Gateway+National+Recreation+Area+Sandy+Hook+Unit+Highlands+NJ)** — Highlands · [NPS site](https://www.nps.gov/gate/) 
+- [ ] **9. [Morristown National Historical Park](https://www.google.com/maps/search/?api=1&query=Morristown+National+Historical+Park+Morristown+NJ)** — Morristown · [NPS site](https://www.nps.gov/morr/) 
+- [ ] **10. [Paterson Great Falls National Historical Park](https://www.google.com/maps/search/?api=1&query=Paterson+Great+Falls+National+Historical+Park+Paterson+NJ)** — Paterson · [NPS site](https://www.nps.gov/pagr/) 
 
 ### Pennsylvania
 
-- [ ] **11. [Fort Necessity National Battlefield](https://www.google.com/maps/search/?api=1&query=-79.58188)** — Farmington — Fort+Necessity+National+Battlefield+Farmington+PA
-- [ ] **12. [Hopewell Furnace National Historic Site](https://www.google.com/maps/search/?api=1&query=-75.77226)** — Elverson — Hopewell+Furnace+National+Historic+Site+Elverson+PA
-- [ ] **13. [Independence National Historical Park](https://www.google.com/maps/search/?api=1&query=-75.1469)** — Philadelphia — Independence+National+Historical+Park+Philadelphia+PA
-- [ ] **14. [Thaddeus Kosciuszko National Memorial](https://www.google.com/maps/search/?api=1&query=-75.14729)** — Philadelphia — Thaddeus+Kosciuszko+National+Memorial+Philadelphia+PA
-- [ ] **15. [Valley Forge National Historical Park](https://www.google.com/maps/search/?api=1&query=-75.47144)** — Valley Forge — Valley+Forge+National+Historical+Park+Valley+Forge+PA
-- [ ] **16. [Washington-Rochambeau Revolutionary Route National Historic Trail](https://www.google.com/maps/search/?api=1&query=-76.51112)** — Yorktown (trail: PA, MA, RI, CT, NY, NJ, DE, MD, VA, DC) — Washington-Rochambeau+Revolutionary+Route+National+Historic+Trail+Yorktown+VA
+- [ ] **11. [Fort Necessity National Battlefield](https://www.google.com/maps/search/?api=1&query=Fort+Necessity+National+Battlefield+Farmington+PA)** — Farmington · [NPS site](https://www.nps.gov/fone/) 
+- [ ] **12. [Hopewell Furnace National Historic Site](https://www.google.com/maps/search/?api=1&query=Hopewell+Furnace+National+Historic+Site+Elverson+PA)** — Elverson · [NPS site](https://www.nps.gov/hofu/) 
+- [ ] **13. [Independence National Historical Park](https://www.google.com/maps/search/?api=1&query=Independence+National+Historical+Park+Philadelphia+PA)** — Philadelphia · [NPS site](https://www.nps.gov/inde/) 
+- [ ] **14. [Thaddeus Kosciuszko National Memorial](https://www.google.com/maps/search/?api=1&query=Thaddeus+Kosciuszko+National+Memorial+Philadelphia+PA)** — Philadelphia · [NPS site](https://www.nps.gov/thko/) 
+- [ ] **15. [Valley Forge National Historical Park](https://www.google.com/maps/search/?api=1&query=Valley+Forge+National+Historical+Park+Valley+Forge+PA)** — Valley Forge · [NPS site](https://www.nps.gov/vafo/) 
+- [ ] **16. [Washington-Rochambeau Revolutionary Route National Historic Trail](https://www.google.com/maps/search/?api=1&query=Washington-Rochambeau+Revolutionary+Route+National+Historic+Trail+Yorktown+VA)** — Yorktown (trail: PA, MA, RI, CT, NY, NJ, DE, MD, VA, DC) · [NPS site](https://www.nps.gov/waro/)  — Multi-state trail, listed under Pennsylvania in the source list. Pin at Yorktown, VA — the trail's southern terminus.
 
 ### Virginia
 
-- [ ] **17. [Colonial National Historical Park — Historic Jamestown & Yorktown Battlefield](https://www.google.com/maps/search/?api=1&query=-76.50241)** — Yorktown — Colonial+National+Historical+Park+Yorktown+VA
-- [ ] **18. [George Washington Birthplace National Monument](https://www.google.com/maps/search/?api=1&query=-76.91734)** — Colonial Beach — George+Washington+Birthplace+National+Monument+Colonial+Beach+VA
-- [ ] **19. [Prince William Forest Park](https://www.google.com/maps/search/?api=1&query=-77.34899)** — Triangle — Prince+William+Forest+Park+Triangle+VA
+- [ ] **17. [Colonial National Historical Park — Historic Jamestown & Yorktown Battlefield](https://www.google.com/maps/search/?api=1&query=Colonial+National+Historical+Park+Yorktown+VA)** — Yorktown · [NPS site](https://www.nps.gov/colo/)  — Pin at the Yorktown Battlefield Visitor Center. Covers Historic Jamestown and the Yorktown Battlefield.
+- [ ] **18. [George Washington Birthplace National Monument](https://www.google.com/maps/search/?api=1&query=George+Washington+Birthplace+National+Monument+Colonial+Beach+VA)** — Colonial Beach · [NPS site](https://www.nps.gov/gewa/) 
+- [ ] **19. [Prince William Forest Park](https://www.google.com/maps/search/?api=1&query=Prince+William+Forest+Park+Triangle+VA)** — Triangle · [NPS site](https://www.nps.gov/prwi/)  — Town was cut off in the source list — the park is at Triangle, VA.
 
 ## Southern Region {#southern}
 
@@ -108,26 +108,26 @@ All 46 parks from the list, divided by **region and state** — with a map and a
 
 ### Arkansas
 
-- [ ] **1. [Arkansas Post National Memorial](https://www.google.com/maps/search/?api=1&query=-91.34653)** — Gillett — Arkansas+Post+National+Memorial+Gillett+AR
+- [ ] **1. [Arkansas Post National Memorial](https://www.google.com/maps/search/?api=1&query=Arkansas+Post+National+Memorial+Gillett+AR)** — Gillett · [NPS site](https://www.nps.gov/arpo/) 
 
 ### Florida
 
-- [ ] **2. [Castillo de San Marcos National Monument](https://www.google.com/maps/search/?api=1&query=-81.31152)** — St. Augustine — Castillo+de+San+Marcos+National+Monument+St.+Augustine+FL
-- [ ] **3. [Timucuan Ecological and Historic Preserve](https://www.google.com/maps/search/?api=1&query=-81.48511)** — Jacksonville — Timucuan+Ecological+and+Historic+Preserve+Jacksonville+FL
+- [ ] **2. [Castillo de San Marcos National Monument](https://www.google.com/maps/search/?api=1&query=Castillo+de+San+Marcos+National+Monument+St.+Augustine+FL)** — St. Augustine · [NPS site](https://www.nps.gov/casa/) 
+- [ ] **3. [Timucuan Ecological and Historic Preserve](https://www.google.com/maps/search/?api=1&query=Timucuan+Ecological+and+Historic+Preserve+Jacksonville+FL)** — Jacksonville · [NPS site](https://www.nps.gov/timu/)  — Pin at the Fort Caroline / visitor center area.
 
 ### North Carolina
 
-- [ ] **4. [Guilford Courthouse National Military Park](https://www.google.com/maps/search/?api=1&query=-79.84633)** — Greensboro — Guilford+Courthouse+National+Military+Park+Greensboro+NC
-- [ ] **5. [Moores Creek National Battlefield](https://www.google.com/maps/search/?api=1&query=-78.10965)** — Currie — Moores+Creek+National+Battlefield+Currie+NC
+- [ ] **4. [Guilford Courthouse National Military Park](https://www.google.com/maps/search/?api=1&query=Guilford+Courthouse+National+Military+Park+Greensboro+NC)** — Greensboro · [NPS site](https://www.nps.gov/guco/) 
+- [ ] **5. [Moores Creek National Battlefield](https://www.google.com/maps/search/?api=1&query=Moores+Creek+National+Battlefield+Currie+NC)** — Currie · [NPS site](https://www.nps.gov/mocr/) 
 
 ### South Carolina
 
-- [ ] **6. [Charles Pinckney National Historic Site](https://www.google.com/maps/search/?api=1&query=-79.82396)** — Charleston — Charles+Pinckney+National+Historic+Site+Charleston+SC
-- [ ] **7. [Cowpens National Battlefield](https://www.google.com/maps/search/?api=1&query=-81.81953)** — Chesnee — Cowpens+National+Battlefield+Chesnee+SC
-- [ ] **8. [Fort Sumter and Fort Moultrie National Historical Park](https://www.google.com/maps/search/?api=1&query=-79.85764)** — Sullivan's Island — Fort+Sumter+and+Fort+Moultrie+National+Historical+Park+Sullivan's+Island+SC
-- [ ] **9. [Kings Mountain National Military Park](https://www.google.com/maps/search/?api=1&query=-81.38726)** — Kings Mountain — Kings+Mountain+National+Military+Park+Kings+Mountain+NC
-- [ ] **10. [Ninety Six National Historic Site](https://www.google.com/maps/search/?api=1&query=-82.02334)** — Ninety Six — Ninety+Six+National+Historic+Site+Ninety+Six+SC
-- [ ] **11. [Overmountain Victory National Historic Trail](https://www.google.com/maps/search/?api=1&query=-81.64961)** — Gaffney (trail: SC, NC, TN, VA) — Overmountain+Victory+National+Historic+Trail+Gaffney+SC
+- [ ] **6. [Charles Pinckney National Historic Site](https://www.google.com/maps/search/?api=1&query=Charles+Pinckney+National+Historic+Site+Charleston+SC)** — Charleston · [NPS site](https://www.nps.gov/chpi/)  — Listed under Charleston in the source list — the site itself is in Mount Pleasant, SC.
+- [ ] **7. [Cowpens National Battlefield](https://www.google.com/maps/search/?api=1&query=Cowpens+National+Battlefield+Chesnee+SC)** — Chesnee · [NPS site](https://www.nps.gov/cowp/) 
+- [ ] **8. [Fort Sumter and Fort Moultrie National Historical Park](https://www.google.com/maps/search/?api=1&query=Fort+Sumter+and+Fort+Moultrie+National+Historical+Park+Sullivan's+Island+SC)** — Sullivan's Island · [NPS site](https://www.nps.gov/fosu/)  — Pin at Fort Moultrie on Sullivan's Island. Fort Sumter itself is ferry-only from Charleston.
+- [ ] **9. [Kings Mountain National Military Park](https://www.google.com/maps/search/?api=1&query=Kings+Mountain+National+Military+Park+Kings+Mountain+NC)** — Kings Mountain · [NPS site](https://www.nps.gov/kimo/)  — Pin at the park near Blacksburg, SC.
+- [ ] **10. [Ninety Six National Historic Site](https://www.google.com/maps/search/?api=1&query=Ninety+Six+National+Historic+Site+Ninety+Six+SC)** — Ninety Six · [NPS site](https://www.nps.gov/nisi/) 
+- [ ] **11. [Overmountain Victory National Historic Trail](https://www.google.com/maps/search/?api=1&query=Overmountain+Victory+National+Historic+Trail+Gaffney+SC)** — Gaffney (trail: SC, NC, TN, VA) · [NPS site](https://www.nps.gov/ovvi/)  — Multi-state trail. Pin at Gaffney, SC.
 
 ## Notes on the pins {#notes}
 
