@@ -3,6 +3,16 @@ layout: default
 title: America 250 Stamps — American Revolution Parks by Region & State
 ---
 
+<a id="top"></a>
+
+<style>
+html { scroll-behavior: smooth; }
+.back-to-top { position: fixed; right: 16px; bottom: 16px; z-index: 999; background: #159957; color: #fff !important; padding: 10px 16px; border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,.35); font-weight: 600; font-size: 14px; text-decoration: none !important; }
+.back-to-top:hover { background: #0f7a3f; }
+</style>
+
+<a class="back-to-top" href="#top" aria-label="Back to top">↑ Top</a>
+
 # America 250 Stamps
 
 **American Revolution Parks Checklist · Passport to Your National Parks®**
@@ -138,3 +148,5 @@ All 46 parks from the list, divided by **region and state** — with a map and a
 - **Charles Pinckney NHS** is listed under Charleston but sits in Mount Pleasant, SC; **Kings Mountain NMP** is pinned at the park near Blacksburg, SC.
 - **Prince William Forest Park's** town was cut off in the source list — it is at Triangle, VA.
 - Source: *American Revolution Parks Checklist* (Passport to Your National Parks® – Northern, Central & Southern Regions), list supplied Oct 23, 2026 — 46 parks total.
+
+[↑ Back to top](#top)
