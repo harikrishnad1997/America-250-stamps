@@ -5,13 +5,7 @@ title: America 250 Stamps — American Revolution Parks by Region & State
 
 <a id="top"></a>
 
-<style>
-html { scroll-behavior: smooth; }
-.back-to-top { position: fixed; right: 16px; bottom: 16px; z-index: 999; background: #159957; color: #fff !important; padding: 10px 16px; border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,.35); font-weight: 600; font-size: 14px; text-decoration: none !important; }
-.back-to-top:hover { background: #0f7a3f; }
-</style>
-
-<a class="back-to-top" href="#top" aria-label="Back to top">↑ Top</a>
+<a href="#top" title="Back to top" style="position:fixed; right:16px; bottom:16px; z-index:99; background:#1d6fb8; color:#fff; padding:10px 16px; border-radius:24px; text-decoration:none; font-size:14px; font-weight:600; box-shadow:0 2px 6px rgba(0,0,0,.3);">↑ Top</a>
 
 # America 250 Stamps
 
